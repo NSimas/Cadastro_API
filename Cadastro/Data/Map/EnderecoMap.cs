@@ -33,10 +33,10 @@ namespace Cadastro.Data.Map
                 .IsRequired();
 
             //relations
-            builder.HasOne(x => x.pessoa)
-                .WithMany(x => x.Enderecos)
-                .HasForeignKey(y => y.PessoaId)
-                .IsRequired();
+            builder.HasOne(x => x.pessoa);
+                //.WithMany(x => x.Enderecos)
+                //.HasForeignKey(y => y.PessoaId)
+                //.IsRequired();
         }
     }
 }

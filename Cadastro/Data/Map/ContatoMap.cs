@@ -24,10 +24,10 @@ namespace Cadastro.Data.Map
                 .HasMaxLength(150);
 
             //relations
-            builder.HasOne(x => x.pessoa)
-                   .WithMany(x => x.Contatos)
-                   .HasForeignKey(x => x.PessoaId)
-                   .IsRequired();
+            builder.HasOne(x => x.pessoa);
+                   //.WithMany(x => x.Contatos)
+                   //.HasForeignKey(x => x.PessoaId)
+                   //.IsRequired();
 
         }
     }

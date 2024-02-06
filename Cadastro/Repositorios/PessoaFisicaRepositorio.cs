@@ -16,15 +16,18 @@ namespace Cadastro.Repositorios
 
         public async Task<List<PessoaFisicaModel>> BuscarTodasPessoas()
         {
-            return await _dbContext.PessoaFisica
-                .Include(x => x.Enderecos)
-                .Include(x => x.Contatos)
-                .ToListAsync();
+            return await _dbContext.PessoaFisica.ToListAsync();
+            //.Include(x => x.Enderecos)
+            //.Include(x => x.Contatos)
+            //.ToListAsync();
         }
 
         public async Task<PessoaFisicaModel> BuscarId(int id)
         {
-            return await _dbContext.PessoaFisica.Include(x => x.Enderecos).Include(x => x.Contatos).FirstOrDefaultAsync(x => x.Id == id);
+            return await _dbContext.PessoaFisica.FirstOrDefaultAsync(x => x.Id == id);
+            //.Include(x => x.Enderecos)
+            //.Include(x => x.Contatos)
+            //.FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<PessoaFisicaModel> Adicionar(PessoaFisicaModel pessoaFisica)
