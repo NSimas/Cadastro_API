@@ -1,0 +1,7 @@
+C:\Users\nelia\source\repos\Cadastro\obj\Debug\net6.0\Cadastro.csproj.AssemblyReference.cache
+C:\Users\nelia\source\repos\Cadastro\obj\Debug\net6.0\Cadastro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nelia\source\repos\Cadastro\obj\Debug\net6.0\Cadastro.AssemblyInfoInputs.cache
+C:\Users\nelia\source\repos\Cadastro\obj\Debug\net6.0\Cadastro.AssemblyInfo.cs
+C:\Users\nelia\source\repos\Cadastro\obj\Debug\net6.0\Cadastro.csproj.CoreCompileInputs.cache
+C:\Users\nelia\source\repos\Cadastro\obj\Debug\net6.0\Cadastro.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nelia\source\repos\Cadastro\obj\Debug\net6.0\Cadastro.MvcApplicationPartsAssemblyInfo.cache
